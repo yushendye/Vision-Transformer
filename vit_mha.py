@@ -1,3 +1,5 @@
+import torch
+import torch.nn as nn
 from vit_head import *
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
